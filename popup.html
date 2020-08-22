@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="lib-styles.css">
+  <script src="UI.js" defer></script>
+  <script src="highlight.js" defer></script>
+</head>
+
+<body>
+  <div class="add-container">
+    <div class="group">
+      <input class="text-input" type="text" required="required" id="text-box" />
+      <label for="name">regex</label>
+      <div class="bar"></div>
+    </div>
+    <div>
+      <button class="toggle-button selected" id="title-button">Title</button>
+      <button class=" toggle-button" id="channel-button">Channel</button>
+    </div>
+    <button id="add-button">Add</button>
+  </div>
+  <ul id="regex-list">
+  </ul>
+  <button id="save-button">Save</button>
+</body>
+
+</html>

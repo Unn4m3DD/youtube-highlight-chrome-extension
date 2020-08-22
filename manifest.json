@@ -1,0 +1,16 @@
+{
+  "name": "YouTube Highlight",
+  "version": "1.0",
+  "description": "YouTube video highlighter based on a list of regex",
+  "manifest_version": 2,
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
